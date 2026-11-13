@@ -1,0 +1,75 @@
+{
+    "project": "AirbnbPrice",
+    "step": "09 - Model Optimization and Final Validation",
+    "selected_model": {
+        "selected_model": "Tuned ExtraTrees",
+        "test_MAE": 456.8031786950557,
+        "test_RMSE": 1184.9081264678723,
+        "test_R2": 0.33063745335024664,
+        "train_R2": 0.1405399785074154,
+        "R2_gap": -0.19009747484283124,
+        "cross_validation_MAE": 483.5031286261366,
+        "cross_validation_RMSE": 1754.47882686566,
+        "cross_validation_R2": 0.1843451532080405
+    },
+    "model_comparison": [
+        {
+            "Model": "Tuned ExtraTrees",
+            "Train_MAE": 457.3616115641411,
+            "Test_MAE": 456.8031786950557,
+            "Train_RMSE": 2090.200111767294,
+            "Test_RMSE": 1184.9081264678723,
+            "Train_R2": 0.1405399785074154,
+            "Test_R2": 0.33063745335024664,
+            "R2_Gap": -0.19009747484283124
+        },
+        {
+            "Model": "Baseline Random Forest",
+            "Train_MAE": 371.21723818888813,
+            "Test_MAE": 525.4276524959432,
+            "Train_RMSE": 1363.8959814734408,
+            "Test_RMSE": 1198.6544336769432,
+            "Train_R2": 0.6340578407947824,
+            "Test_R2": 0.3150166036809091,
+            "R2_Gap": 0.31904123711387333
+        }
+    ],
+    "cross_validation": [
+        {
+            "Model": "Baseline Random Forest",
+            "Mean_MAE": 548.1413269539186,
+            "Std_MAE": 74.57116858018335,
+            "Mean_RMSE": 1702.9055519083176,
+            "Std_RMSE": 839.1199064065693,
+            "Mean_R2": 0.20610271088345486,
+            "Std_R2": 0.21413420588017604
+        },
+        {
+            "Model": "Tuned ExtraTrees",
+            "Mean_MAE": 483.5031286261366,
+            "Std_MAE": 89.27343148973362,
+            "Mean_RMSE": 1754.47882686566,
+            "Std_RMSE": 930.5111292842088,
+            "Mean_R2": 0.1843451532080405,
+            "Std_R2": 0.18525662950721256
+        }
+    ],
+    "overfitting_analysis": [
+        {
+            "Model": "Tuned ExtraTrees",
+            "Train_R2": 0.1405399785074154,
+            "Test_R2": 0.33063745335024664,
+            "R2_Gap": -0.19009747484283124,
+            "Assessment": "Low train-test R2 gap"
+        },
+        {
+            "Model": "Baseline Random Forest",
+            "Train_R2": 0.6340578407947824,
+            "Test_R2": 0.3150166036809091,
+            "R2_Gap": 0.31904123711387333,
+            "Assessment": "High train-test R2 gap"
+        }
+    ],
+    "runtime_seconds": 4.22,
+    "model_files_modified": false
+}

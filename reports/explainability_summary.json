@@ -1,0 +1,39 @@
+{
+    "project": "AirbnbPrice",
+    "step": "08 - Model Explainability",
+    "model_type": "TransformedTargetRegressor",
+    "top_permutation_features": [
+        "room_type",
+        "max_guests",
+        "is_superhost",
+        "stars",
+        "has_rating",
+        "longitude",
+        "latitude",
+        "city",
+        "state"
+    ],
+    "top_shap_features": [
+        "categorical__room_type_Room in hotel",
+        "numeric__has_rating",
+        "numeric__stars",
+        "categorical__state_Goa",
+        "categorical__city_New Delhi",
+        "categorical__state_Delhi",
+        "numeric__is_superhost",
+        "categorical__state_Uttarakhand",
+        "categorical__room_type_Farm stay",
+        "numeric__max_guests"
+    ],
+    "figures": [
+        "permutation_feature_importance.png",
+        "shap_summary.png",
+        "shap_feature_importance.png",
+        "shap_individual_prediction.png"
+    ],
+    "reports": [
+        "permutation_feature_importance.csv",
+        "shap_feature_importance.csv"
+    ],
+    "note": "SHAP values explain the underlying estimator's log-transformed target predictions."
+}

@@ -1,0 +1,32 @@
+{
+  "best_model": "ExtraTrees",
+  "best_model_path": "models/best_airbnb_price_model_tuned.joblib",
+  "rows_used": 499,
+  "features_used": [
+    "city",
+    "state",
+    "latitude",
+    "longitude",
+    "max_guests",
+    "room_type",
+    "stars",
+    "is_superhost",
+    "has_rating"
+  ],
+  "random_holdout_test_metrics": {
+    "MAE": 456.8031786950557,
+    "RMSE": 1184.9081264678723,
+    "R2": 0.33063745335024664
+  },
+  "geographic_group_cv": {
+    "mean_MAE": 490.8783486918454,
+    "mean_RMSE": 1735.0663810515514,
+    "mean_R2": 0.1551512924920832
+  },
+  "baseline_metrics": {
+    "MAE": 562.81,
+    "RMSE": 1510.098106084502,
+    "R2": -0.08718231212223282
+  },
+  "total_runtime_seconds": 42.49
+}

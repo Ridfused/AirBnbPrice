@@ -1,0 +1,108 @@
+feature,mean_absolute_shap
+categorical__room_type_Room in hotel,0.1986394563035574
+numeric__has_rating,0.08541890605795198
+numeric__stars,0.08111616354052678
+categorical__state_Goa,0.03459247100236826
+categorical__city_New Delhi,0.024729747933265753
+categorical__state_Delhi,0.02365093678291887
+numeric__is_superhost,0.017974992500396914
+categorical__state_Uttarakhand,0.016868755512358623
+categorical__room_type_Farm stay,0.016153931809659114
+numeric__max_guests,0.015805127759289467
+categorical__room_type_Entire villa,0.011074515360500662
+numeric__latitude,0.006574234183074441
+categorical__room_type_Entire home,0.006226562707137784
+categorical__state_Tamil Nadu,0.0048726960915140794
+numeric__longitude,0.00258155937991105
+categorical__city_Lonavala,0.0018005803657695654
+categorical__state_Kerala,0.0014463498833822085
+categorical__room_type_infrequent_sklearn,0.00091643485352397
+categorical__city_infrequent_sklearn,0.0006608410001499581
+categorical__state_Himachal Pradesh,0.0006527389429509639
+categorical__city_Anjuna,0.0005016910481383095
+categorical__state_Maharashtra,0.00043600133301224564
+categorical__state_infrequent_sklearn,0.00032822317713871607
+categorical__room_type_Entire bungalow,9.8607266927138e-05
+categorical__city_Candolim,8.625531550496817e-05
+categorical__city_Jaipur,4.4386407686397436e-05
+categorical__state_Rajasthan,2.7509477722924225e-05
+categorical__state_India,2.594534079544246e-05
+categorical__state_Haryana,2.4797797016799452e-05
+categorical__state_Karnataka,1.7592604947276412e-05
+categorical__city_Udaipur,5.238158069550993e-06
+categorical__city_Lonavla,3.684613760560755e-06
+categorical__city_Calangute,3.4959722775965935e-06
+categorical__city_Alibag,0.0
+categorical__city_Alappuzha,0.0
+categorical__city_Chennai,0.0
+categorical__city_Dehradun,0.0
+categorical__city_Goa,0.0
+categorical__city_Dona Paula,0.0
+categorical__city_Assagao,0.0
+categorical__city_Arpora,0.0
+categorical__city_Bhuntar,0.0
+categorical__city_Awas,0.0
+categorical__city_Nerul,0.0
+categorical__city_Nainital,0.0
+categorical__city_Mussoorie,0.0
+categorical__city_Mumbai,0.0
+categorical__city_Mararikulam,0.0
+categorical__city_Maravanthe,0.0
+categorical__city_Mandrem,0.0
+categorical__city_Manali,0.0
+categorical__city_Krishnagiri,0.0
+categorical__city_Mahabaleshwar,0.0
+categorical__city_Kumarakom,0.0
+categorical__city_Kune N.m.,0.0
+categorical__city_Kodaikanal,0.0
+categorical__city_Kasauli,0.0
+categorical__city_Khandala,0.0
+categorical__city_Kochi,0.0
+categorical__city_Baga,0.0
+categorical__city_Canacona,0.0
+categorical__city_Bengaluru,0.0
+categorical__city_Gurugram,0.0
+categorical__city_Reis Magos,0.0
+categorical__city_Rishikesh,0.0
+categorical__city_Sangolda,0.0
+categorical__city_Saligao,0.0
+categorical__city_Varanasi,0.0
+categorical__city_Vagator,0.0
+categorical__city_Panchgani,0.0
+categorical__city_North Goa,0.0
+categorical__city_Pawnanagar,0.0
+categorical__city_Penha de França,0.0
+categorical__city_Puducherry,0.0
+categorical__city_Panaji,0.0
+categorical__state_North Goa,0.0
+categorical__state_Madhya Pradesh,0.0
+categorical__state_MH,0.0
+categorical__state_GA,0.0
+categorical__state_Andhra Pradesh,0.0
+categorical__city_Zirad,0.0
+categorical__city_Vijayawada,0.0
+categorical__city_Parra,0.0
+categorical__city_Pune,0.0
+categorical__city_Ramgarh,0.0
+categorical__room_type_Entire condo,0.0
+categorical__room_type_Entire cottage,0.0
+categorical__state_West Bengal,0.0
+categorical__room_type_Entire chalet,0.0
+categorical__state_Uttar Pradesh,0.0
+categorical__state_TN,0.0
+categorical__room_type_Entire vacation home,0.0
+categorical__room_type_Entire serviced apartment,0.0
+categorical__room_type_Entire rental unit,0.0
+categorical__room_type_Entire place,0.0
+categorical__room_type_Private room in bungalow,0.0
+categorical__room_type_Private room in castle,0.0
+categorical__room_type_Houseboat,0.0
+categorical__room_type_Private room in bed and breakfast,0.0
+categorical__room_type_Private room in nature lodge,0.0
+categorical__room_type_Private room in cottage,0.0
+categorical__room_type_Private room in resort,0.0
+categorical__room_type_Private room in villa,0.0
+categorical__room_type_Room in heritage hotel,0.0
+categorical__room_type_Room in boutique hotel,0.0
+categorical__room_type_Room in resort,0.0
+categorical__room_type_Room in serviced apartment,0.0
